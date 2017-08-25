@@ -50,10 +50,26 @@
 		<script type="text/javascript" src="js/gridscroll.js"></script>
 		<script type="text/javascript" src="js/contact.js"></script>
 		<script type="text/javascript" src="js/common.js"></script>
+
 	</head>
 
 	<body>
 		<div class="wrapper" id="wrapper">
+
+			<!--==========================
+				Outlay Section
+			============================-->
+			<!-- <div id="overlay" class="overlay">
+				<div class="overlaycontent">
+					<article id="intro">
+						<span class="close">&times;</span>
+						<h2 class="major">Intro</h2>
+						<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+						<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+					</article>
+				</div>
+			</div> -->
 
 			<!--==========================
 				Banner Section
@@ -85,9 +101,7 @@
 											<ul class="nav navbar-nav">
 												<li class="menuItem active"><a href="#wrapper">Home</a></li>
 												<li class="menuItem"><a href="#aboutus">Events</a></li>
-												<!-- <li class="menuItem"><a href="#specialties">Specialties</a></li>
-												<li class="menuItem"><a href="#gallery">Events Gallery</a></li>
-												<li class="menuItem"><a href="#feedback">Feedback</a></li> -->
+												<!-- <li class="menuItem"><a href="#intro">AddEvent</a></li> -->
 												<li class="menuItem"><a href="#contact">Contact Us</a></li>
 											</ul>
 										</div>
@@ -99,7 +113,6 @@
 				</div>
 			</div>
 
-
 			<!--==========================
 				Events Section
 			============================-->
@@ -109,25 +122,25 @@
 						<img class="dividerline" src="img/sep.png" alt="">
 						<h2>Events</h2>
 						<img class="dividerline" src="img/sep.png" alt="">
-						<p>Have a look at upcoming events. No longer have boring days. Make memories on the daily.<br/> Book Event, Attend, Repeat.</p>
+						<h3>Have a look at upcoming events</h3>
 					</div>
 						<div class="portfolioFilter">
 							<ul class="Portfolio-nav wow fadeIn delay-02s">
 								<li><a href="#" data-filter="*" class="current" >All</a></li>
-									<li><a href="#" data-filter=".branding" >Religion</a></li>
-									<li><a href="#" data-filter=".webdesign" >Tech</a></li>
-									<li><a href="#" data-filter=".printdesign" >Raves</a></li>
-									<li><a href="#" data-filter=".photography" >Adventure</a></li>
+									<li><a href="#" data-filter=".religion" >Religion</a></li>
+									<li><a href="#" data-filter=".tech" >Tech</a></li>
+									<li><a href="#" data-filter=".raves" >Raves</a></li>
+									<li><a href="#" data-filter=".adventure" >Adventure</a></li>
 							</ul>
 						 </div>
 
 				</div>
 					<div class="portfolioContainer wow fadeInUp delay-04s">
 
-						<div class="col-md-6 printdesign">
+						<div class="col-md-6 raves">
 							<div class="papers text-center">
 								<img src="img/events/event1.jpg" alt=""><br/>
-								<a href="#"><b>View Event</b></a>
+								<a href="#overlay"><b>View Event</b></a>
 								<h4 class="notopmarg nobotmarg">Kimathi Google IO Event</h4>
 								<p>
 									Come, have fun as you learn the new developments from google, new tools to use as a developer as well as starting kits for newbee devs.
@@ -136,7 +149,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 webdesign" webdesign>
+						<div class="col-md-6 tech">
 							<div class="papers text-center">
 								<img src="img/events/event2.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -148,7 +161,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 branding">
+						<div class="col-md-6 religion">
 							<div class="papers text-center">
 								<img src="img/events/event3.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -160,7 +173,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 branding">
+						<div class="col-md-6 religion">
 							<div class="papers text-center">
 								<img src="img/events/event4.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -172,7 +185,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 photography">
+						<div class="col-md-6 adventure">
 							<div class="papers text-center">
 								<img src="img/events/event5.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -184,7 +197,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 photography">
+						<div class="col-md-6 tech">
 							<div class="papers text-center">
 								<img src="img/events/event6.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -196,7 +209,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 photography">
+						<div class="col-md-6 adventure">
 							<div class="papers text-center">
 								<img src="img/events/event7.jpg" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -208,7 +221,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 photography">
+						<div class="col-md-6 adventure">
 							<div class="papers text-center">
 								<img src="img/events/event8.JPG" alt=""><br/>
 								<a href="#"><b>View Event</b></a>
@@ -272,61 +285,14 @@
 					<li><a href="https://www.instagram.com/mosseintech/"><i class="fa fa-instagram"></i></a></li>
 				</ul>
 				<p>
-					&copy; Copyright 2017 Kimathi Events<br>
-					 Developed by : <a href="http://www.mosseintech.com">Mossein Tech</a>
+					&copy; 2017 Copyright Holder <label>Kimathi Events</label> All Rights Reserved.<br>
+					 Developed by : <a href="http://www.mosseintech.com"><label>Mossein Tech</label></a>
 				</p>
 			</div>
 			</section>
 
-		</div><!--wrapper end-->
-	<!-- <section class="main-section paddind" id="Portfolio">
-		<div class="container">
-	    	<h2>Portfolio</h2>
-	    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-	      <div class="portfolioFilter">
-	        <ul class="Portfolio-nav wow fadeIn delay-02s">
-	        	<li><a href="#" data-filter="*" class="current" >All</a></li>
-	            <li><a href="#" data-filter=".branding" >Branding</a></li>
-	            <li><a href="#" data-filter=".webdesign" >Web design</a></li>
-	            <li><a href="#" data-filter=".printdesign" >Print design</a></li>
-	            <li><a href="#" data-filter=".photography" >Photography</a></li>
-	        </ul>
-	       </div>
 
-		</div>
-	    <div class="portfolioContainer wow fadeInUp delay-04s">
-	            	<div class=" Portfolio-box printdesign">
-	                	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>
-	                	<h3>Foto Album</h3>
-	                    <p>Print Design</p>
-	                </div>
-	                <div class="Portfolio-box webdesign">
-	                	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>
-	                	<h3>Luca Theme</h3>
-	                    <p>Web Design</p>
-	                </div>
-	                <div class=" Portfolio-box branding">
-	                	<a href="#"><img src="img/Portfolio-pic3.jpg" alt=""></a>
-	                	<h3>Uni Sans</h3>
-	                    <p>Branding</p>
-	                </div>
-	                <div class=" Portfolio-box photography" >
-	                	<a href="#"><img src="img/Portfolio-pic4.jpg" alt=""></a>
-	                	<h3>Vinyl Record</h3>
-	                    <p>Photography</p>
-	                </div>
-	                <div class=" Portfolio-box branding">
-	                	<a href="#"><img src="img/Portfolio-pic5.jpg" alt=""></a>
-	                	<h3>Hipster</h3>
-	                    <p>Branding</p>
-	                </div>
-	                <div class=" Portfolio-box photography">
-	                	<a href="#"><img src="img/Portfolio-pic6.jpg" alt=""></a>
-	                	<h3>Windmills</h3>
-	                    <p>Photography</p>
-	                </div>
-	    </div>
-	</section>-->
+		</div><!--wrapper end-->
 
 	<!-- javascript for Nav bar support -->
 	<script type="text/javascript">
