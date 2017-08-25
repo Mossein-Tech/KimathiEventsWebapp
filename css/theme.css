@@ -118,11 +118,11 @@ img {max-width: 100%;}
 	display:none;
 }
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-	background:#cc580c;
+	background:#228B22;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-	background:#cc580c;
+	background:#228B22;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
@@ -198,15 +198,152 @@ header {
 	padding:5px;
 }
 .heading h2::first-letter {
-	color:#cc580c;
+	color:#228B22;
 }
-.heading h3 {
+/*.heading h3 {
 	font-size:16px;
 	line-height:1.7;
+}*/
+.heading h3{
+ font-family:'Playball',cursive;
+ font-size: 1em;
+ color: #808080 ;/*grey color*/
 }
 img#site-title {
 	max-width: 150px;
 }
+
+
+/*---------------------------------------------------- 	Overlay ------------------------------------------------------*/
+/*.overlay{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+  overflow: scroll;
+}
+.overlaycontent{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  z-index: 3;
+}
+.overlaycontent article {
+  -moz-transform: translateY(0.25rem);
+  -webkit-transform: translateY(0.25rem);
+  -ms-transform: translateY(0.25rem);
+  transform: translateY(0.25rem);
+  -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
+  -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
+  -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
+  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+  padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+  position: relative;
+  width: 40rem;
+  max-width: 100%;
+  background-color: rgba(27, 31, 34, 0.85);
+  border-radius: 4px;
+  opacity: 0;
+}
+.overlaycontent article.active {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.overlaycontent article .close {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  text-indent: 4rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.overlaycontent article .close:before {
+  -moz-transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-position: center;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.overlaycontent article .close:hover:before {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.overlaycontent article .close:active:before {
+  background-color: rgba(255, 255, 255, 0.175);
+}
+
+@media screen and (max-width: 736px) {
+
+.overlaycontent article {
+padding: 3.5rem 2rem 0.5rem 2rem ;
+}
+
+.overlaycontent article .close:before {
+  top: 0.875rem;
+  left: 0.875rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  background-size: 14px 14px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+.overlaycontent article {
+padding: 3rem 1.5rem 0.5rem 1.5rem ;
+}
+
+}*/
+
 
 /*---------------------------------------------------- 	Events 1 ------------------------------------------------------*/
 .main-section{
@@ -266,7 +403,7 @@ img#site-title {
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .Portfolio-nav li a:hover{
-	background:#7cc576;
+	background:#228B22;
 	color:#fff;
 	text-decoration:none;
 }
@@ -297,7 +434,7 @@ img#site-title {
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#228B22;
 	color:#fff;
 	text-decoration:none;
 }
@@ -531,6 +668,25 @@ textarea.contact {
 	text-align:center;
 	/*text-transform:uppercase;*/
 }
+.footer label{
+  color:#228B22;
+	font-size:16px;
+	line-height:24px;
+	font-weight:600;
+	text-align:center;
+}
+.footer a label{
+  font-family:'Playball',cursive;
+  color:#37FDFC;
+	font-size:20px;
+	line-height:24px;
+	font-weight:300;
+	text-align:center;
+  cursor: help;
+}
+.footer a label::first-letter{
+  color: #BF3EFF;
+}
 .gototop {
 	display:inline-block;
 	width:60px;
@@ -542,7 +698,7 @@ textarea.contact {
 	border-radius:50%;
 }
 .gototop i {
-	color:#cc580c;
+	color:#228B22;
 	line-height:70px;
 }
 .footer a,.footer a:hover {
